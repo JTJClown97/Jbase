@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="./CSS/main.css">
+    <title>Document</title>
+    <script type="text/javascript">
+        function init() {
+            var width = document.documentElement.clientWidth;
+            //动态设置设备的html字体大小
+            document.documentElement.style.fontSize = width / 7.49999414 + 'px';
+        }
+
+        init()
+        //当屏幕宽度变化时
+        window.addEventListener('resize', init)
+        //当切换横竖屏时
+        window.addEventListener('orientationchange', init)
+    </script>
+</head>
+
+<body>
+    <div class="home-top">
+        <div class="logo-cont">
+            <a href="" class="logo-img"></a>
+            <div class="logo-title">
+                <h1>王者荣耀</h1>
+                <p>团队成就更多</p>
+            </div>
+        </div>
+        <div class="download">
+            <a href="" class="download-a"></a>
+        </div>
+    </div>
+
+    <div class="home-bottom">
+        <ul class="hb-ul">
+            <li>
+                <a href="">首页</a>
+                <div class="hx"></div>
+            </li>
+            <li>
+                <a href="">攻略中心</a>
+            </li>
+            <li>
+                <a href="">赛事中心</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="lunbotu">
+        <div class="lunbo-img">
+            <ul>
+                <li class="lunb-li">
+                    <a href="">
+                        <img src="./images/lb1.jpeg" alt="">
+                    </a>
+                </li>
+                <li class="lunb-li">
+                    <a href="">
+                        <img src="./images/lb2.jpeg" alt="">
+                    </a>
+                </li>
+                <li class="lunb-li">
+                    <a href="">
+                        <img src="./images/lb3.jpeg" alt="">
+                    </a>
+                </li>
+                <li class="lunb-li">
+                    <a href="">
+                        <img src="./images/lb1.jpeg" alt="">
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="lunbo-bot">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- 方框格子 -->
+    <div class="m-gezi">
+        <ul class="gezi-ul">
+            <li class="blz">
+                <i></i>
+                <span>爆料站</span>
+            </li>
+            <li class="gsz">
+                <i></i>
+                <span>故事站</span>
+            </li>
+            <li class="zbsc">
+                <i></i>
+                <span>周边商城</span>
+            </li>
+            <li class="tyf">
+                <i></i>
+                <span>体验服</span>
+            </li>
+            <li class="xrzq">
+                <i></i>
+                <span>新人专区</span>
+            </li>
+            <li class="rycc">
+                <i></i>
+                <span>荣耀·传承</span>
+            </li>
+            <li class="trsq">
+                <i></i>
+                <span>同人社区</span>
+            </li>
+            <li class="wzyd">
+                <i></i>
+                <span>王者营地</span>
+            </li>
+            <li class="gzh">
+                <i></i>
+                <span>工作号</span>
+            </li>
+            <li>
+                <i id="bbjs"></i>
+                <span>版本介绍</span>
+            </li>
+        </ul>
+    </div>
+    <div class="bt-shou">
+        <span class="icon"></span>
+        <span>收起</span>
+    </div>
+
+    <!-- 新闻资讯 -->
+    <div class="index_cont">
+        <div class="index_title title1">
+            <span class="ico_news ico1"></span>
+            <h3>新闻资讯</h3>
+            <a href="" class="more"></a>
+        </div>
+
+
+        <div class="news_slide">
+            <ul class="news_ul">
+                <li>
+                    <a href="" id="li-a1">热门</a>
+                    <span class="xiahuaxian"></span>
+                </li>
+                <li>
+                    <a href="">新闻</a>
+                </li>
+                <li>
+                    <a href="">公告</a>
+                </li>
+                <li>
+                    <a href="">活动</a>
+                </li>
+                <li>
+                    <a href="">赛事</a>
+                </li>
+            </ul>
+
+            <div class="news_xiaoxi">
+                <ul class="xiaoxi_ul">
+                    <li>
+                        <a href="">
+                            <span>
+                                <span class="h_span">[公告]</span>
+                                <span>|</span>
+                                <span>8月1日全服不停机更新公告</span>
+                            </span>
+
+                            <span class="h_span">07/31</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>
+                                <span class="h_span">[公告]</span>
+                                <span>|</span>
+                                <span>7月30日全服不停机更新公告</span>
+                            </span>
+
+                            <span class="h_span">07/29</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>
+                                <span class="h_span">[公告]</span>
+                                <span>|</span>
+                                <span>炎炎夏日全新活动周 峡谷激战得好礼</span>
+                            </span>
+                            <span class="h_span">07/29</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>
+                                <span class="h_span">[公告]</span>
+                                <span>|</span>
+                                <span>世界冠军杯 集卡赢壕礼活动公告</span>
+                            </span>
+                            <span class="h_span">07/31</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>
+                                <span class="h_span">[公告]</span>
+                                <span>|</span>
+                                <span id="te_span">净化游戏环境声明及处罚公告（7月24日-7月29日）</span>
+                            </span>
+                            <span class="h_span">07/30</span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+
+
+
+    </div>
+
+    <div class="kong"></div>
+
+    <!-- 英雄列表 -->
+    <div class="heroes_list">
+        <div class="index_title  title2">
+            <span class="ico_news ico2"></span>
+            <h3>英雄列表</h3>
+            <a href="" class="more"></a>
+        </div>
+
+        <div class="heroer_img">
+            <a href="">
+                <img src="./images/yao.jpg" alt="">
+            </a>
+        </div>
+        
+
+        <div class="dakuang">
+            <ul>
+                <li>
+                    <a href="" id="d-a1">热门</a>
+                    <span class="xiahuaxian2"></span>
+                </li>
+                <li>
+                    <a href="">战士</a>
+                </li>
+                <li>
+                    <a href="">法师</a>
+                </li>
+                <li>
+                    <a href="">坦克</a>
+                </li>
+                <li>
+                    <a href="">刺客</a>
+                </li>
+                <li>
+                    <a href="">射手</a>
+                </li>
+                <li>
+                    <a href="">辅助</a>
+                </li>
+            </ul>
+            <div class="touxiang">
+                <ul>
+                    <li>
+                        <a href="">
+                            <img src="./images/t1.jpg" alt="">
+                            <h3>孙悟空</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./images/t2.jpg" alt="">
+                            <h3>鲁班七号</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./images/t3.jpg" alt="">
+                            <h3>后羿</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./images/t4.jpg" alt="">
+                            <h3>铠</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./images/t5.jpg" alt="">
+                            <h3>孙尚香</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./images/t6.jpg" alt="">
+                            <h3>亚瑟</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./images/t7.jpg" alt="">
+                            <h3>甄姬</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./images/t8.jpg" alt="">
+                            <h3>韩信</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./images/t9.jpg" alt="">
+                            <h3>妲己</h3>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <img src="./images/t10.jpg" alt="">
+                            <h3>安琪拉</h3>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>
